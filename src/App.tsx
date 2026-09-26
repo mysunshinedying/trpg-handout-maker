@@ -1,10 +1,9 @@
 import './App.css'
+import RootRoutes from "./routes/RootRoutes.tsx";
 
 function App() {
   return (
-    <>
-      가나다라
-    </>
+      <RootRoutes/>
   )
 }
 
