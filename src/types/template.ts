@@ -20,5 +20,5 @@ export type TemplateField = {
     size?: number;
     imageUrl?: string;
     textAlign?: 'left' | 'center' | 'right';
-    margin: number;
+    margin: number | 0;
 };
